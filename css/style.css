@@ -3,12 +3,11 @@
     width: 100%;
     margin: 0 auto;
 }
-
 /* header */
 header {
     width: 100%;
     padding: 52px 34px 52px 147px;
-    margin-bottom: 1716px;
+    /* margin-bottom: 1716px; */
     /* padding-top: 52px; */
     display: flex;
     justify-content: space-between;
@@ -25,7 +24,7 @@ ul {
 
 li a {
     font-size: 36px;
-    color: #ffff;
+    color: #FFFFFF;
     transition-property: all;
     transition-duration: .5s;
     transition-delay: .1s;
@@ -41,7 +40,7 @@ li a:hover {
     width: 100%;
     padding: 0px 34px 304px 147px;
     background-image: url(../image/section1.png);
-    position: absolute;
+    /* position: absolute; */
     background-repeat: no-repeat;
     background-position: cover;
 
@@ -61,7 +60,7 @@ li a:hover {
     width: 100%;
     padding: 90px 145px 140px 145px;
     background-color: #393838;
-    position: relative;
+    /* position: relative; */
     top: 2414px;
 }
 
@@ -73,18 +72,49 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
 .cards {
     width: 90%;
     display: flex;
     justify-content: space-between;
-	gap: 68px;
+    gap: 68px;
 }
 
 .card {
     width: 28%;
-	height: 522px;
+    height: 522px;
 }
-.card:hover{
+
+.card:hover {
     cursor: pointer;
-	box-shadow: 40px 40px 30px black;
+    box-shadow: 40px 40px 30px black;
+}
+
+/* article */
+article {
+    width: 100%;
+    padding: 33px 145px 105px 140px;
+    background-color: #2C2929;
+}
+.article_div{
+    display: flex;
+    background-color: #8E8B8B;
+}
+.article_img{
+    width: 50%;
+}
+.article_text{
+    font-size: 36px;
+    text-align: justify;
+    margin: 85px 52px;
+    color: #FFFFFF;
+}
+h2 {
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 33px;
+    margin-bottom: 106px;
+    display: flex;
+    justify-content: center;
 }
