@@ -7,62 +7,53 @@
 /* header */
 header {
     width: 100%;
-    padding: 52px 34px 52px 147px;
-    /* margin-bottom: 1716px; */
-    /* padding-top: 52px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
+	margin-bottom: 1716px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
     z-index: 1;
-}
-
+    }
 ul {
     display: flex;
-    justify-content: space-between;
-    gap: 58px;
-}
-
-li a {
-    font-size: 36px;
-    color: #FFFFFF;
-    transition-property: all;
-    transition-duration: .5s;
-    transition-delay: .1s;
-}
-
-li a:hover {
-    border: 3px solid #ffffff;
-}
-
+	justify-content: center;
+	align-items: center;
+	gap: 58px;
+	font-size: 36px;
+	color: #ffffff;
+    }
+    li {
+        transition-property: all;
+        transition-duration: .5s;
+        transition-delay: .4s;
+    }
+    
+    li:hover {
+        border: 5px solid #ffffff;
+        cursor: pointer;
+    }
 /* section1 */
 .section1 {
-    height: 2414px;
     width: 100%;
+    height: 2414px;
     padding: 0px 34px 304px 147px;
     background-image: url(../image/section1.png);
     /* position: absolute; */
     background-repeat: no-repeat;
     background-position: cover;
-
 }
-
-.section1_text {
-    position: absolute;
-    z-index: 1;
-    font-size: 64px;
-    top: 1716px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #C0B4B4;
+.section1_text{
+	width: 80%;
+	color: #C0B4B4;
+	font-size: 64px;
+	font-weight: 700;
+	text-align: center;
 }
-
 .section2 {
     width: 100%;
     padding: 90px 145px 140px 145px;
     background-color: #393838;
     /* position: relative; */
-    top: 2414px;
+    /* top: 2414px; */
 }
 
 h1 {
@@ -108,10 +99,12 @@ article {
 }
 
 .article_text {
-    font-size: 36px;
-    text-align: justify;
-    margin: 85px 52px;
-    color: #FFFFFF;
+    width: 45%;
+	padding: 85px 52px;
+	background-color: #8e8b8b;
+	font-size: 36px;
+	font-weight: 400;
+	color: #FFFFFF;
 }
 
 h2 {
@@ -126,38 +119,31 @@ h2 {
 
 /* footer */
 footer {
-    width: 100%;
-    height: 319px;
-    padding: 83px 144px 83px 143px;
-    background-color: #393838;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	width: 100%;
+	padding: 83px 144px 83px 146px;
+	background-color: #393838;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .footer_icons{
-    gap: 37px;
+	gap: 50px;
 }
-.fa-envelope {
-    font-size: 60px;
-    color: white;
-}
-.fa-instagram {
-    font-size: 60px;
-    color: white;
-}
-.fa-square-facebook {
-    font-size: 60px;
-    color: white;
+.fa-envelope,
+.fa-instagram,
+.fa-facebook {
+	font-size: 60px;
+	color: #ffffff
 }
 .fa-envelope:hover{
-    color: red;
-    cursor: pointer;
+	cursor: pointer;
+	color: orange;
 }
 .fa-instagram:hover{
-    color: red;
-    cursor: pointer;
+	cursor: pointer;
+	color: rgb(215, 58, 202)
 }
-.fa-square-facebook{
-    /* color: red; */
-    cursor: pointer;
+.fa-facebook:hover{
+	cursor: pointer;
+	color: rgb(39, 39, 177);
 }
