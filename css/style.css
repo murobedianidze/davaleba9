@@ -4,66 +4,67 @@
     margin: 0 auto;
 }
 
-/* header */
-header {
-    width: 100%;
-	/* margin-bottom: 1716px; */
-    padding: 52px 34px 0px 147px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-    }
-    .header_logo{
-        width: 97px;
-        height: 153px;
-    }
-ul {
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 58px;
-	font-size: 36px;
-	color: #ffffff;
-    }
-    li {
-        transition-property: all;
-        transition-duration: .5s;
-        transition-delay: .4s;
-    }
-    li:hover {
-        border: 5px solid #ffffff;
-        cursor: pointer;
-    }
-    .fa-bars {
-        display: none;
-        font-size: 59px;
-        color: white;
-    }
 /* section1 */
 .section1 {
     width: 100%;
     height: 2414px;
-    padding: 0px 34px 304px 147px;
     background-image: url(../image/section1.png);
     /* position: absolute; */
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: center;
+    background-size: cover;
 }
-.section1_text{
-	width: 80%;
-	color: #C0B4B4;
-	font-size: 64px;
-	font-weight: 700;
-	text-align: center;
+
+/* header */
+header {
+    width: 100%;
+    padding: 0 34px 0px 147px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .header_logo {
+    width: 97px;
+    height: 153px;
+} */
+ul {
+    display: flex;
+    gap: 58px;
+}
+
+li {
+    font-size: 36px;
+    color: #ffffff;
+    border: 5px solid transparent;
+    transition: .5s linear;
+}
+
+li:hover {
+    border: 5px solid #ffffff;
+    cursor: pointer;
+}
+
+.fa-bars {
+    display: none;
+    font-size: 59px;
+    color: white;
+}
+
+.section1_text {
+    width: 80%;
+    color: #C0B4B4;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
     margin: 1564px auto 304px auto;
 }
+
+/* section2 */
 .section2 {
     width: 100%;
-    height: 1067px;
-    padding: 90px 145px 140px 145px;
+    padding: 90px 0 140px 0;
     background-color: #393838;
-    /* position: relative; */
-    /* top: 2414px; */
 }
 
 h1 {
@@ -71,89 +72,92 @@ h1 {
     font-weight: 400px;
     color: #FFFFFF;
     margin-bottom: 239px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
-
 .cards {
     width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    gap: 68px;
 }
-
 .card {
-    width: 28%;
+    width: 30%;
     height: 522px;
 }
-
-.card:hover {
+.card img{
+    width: 100%;
+    height: 100%;
+}
+/* .card:hover {
     cursor: pointer;
     box-shadow: 40px 40px 30px black;
-}
+} */
 
 /* article */
 article {
     width: 100%;
-    /* height: 857px; */
-    padding: 33px 145px 105px 140px;
+    padding: 33px 0 105px 0;
     background-color: #2C2929;
 }
-
-.article_div {
-    display: flex;
-    background-color: #8E8B8B;
-}
-.article_img {
-    width: 50%;
-}
-
-.article_text {
-    width: 45%;
-	padding: 85px 52px;
-	background-color: #8e8b8b;
-	font-size: 36px;
-	font-weight: 400;
-	color: #FFFFFF;
-}
-
 h2 {
     font-size: 64px;
     font-weight: 400;
     color: #FFFFFF;
-    margin-top: 33px;
     margin-bottom: 106px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
-
+.article_div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.article_img {
+    width: 50%;
+    height: 557px;
+}
+.article_text {
+    width: 49%;
+    height: 557px;
+    padding: 85px 52px;
+    background-color: #8e8b8b;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: justify;
+}
 /* footer */
 footer {
-	width: 100%;
-	padding: 83px 144px 83px 146px;
-	background-color: #393838;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    width: 100%;
+    padding: 83px 144px 83px 146px;
+    background-color: #393838;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.footer_icons{
-	gap: 50px;
+
+.footer_icons {
+    display: flex;
+    gap: 50px;
 }
 .fa-envelope,
 .fa-instagram,
 .fa-facebook {
-	font-size: 60px;
-	color: #ffffff
+    font-size: 60px;
+    color: #ffffff
 }
-.fa-envelope:hover{
-	cursor: pointer;
-	color: orange;
+
+.fa-envelope:hover {
+    cursor: pointer;
+    color: orange;
 }
-.fa-instagram:hover{
-	cursor: pointer;
-	color: rgb(215, 58, 202)
+
+.fa-instagram:hover {
+    cursor: pointer;
+    color: rgb(215, 58, 202)
 }
-.fa-facebook:hover{
-	cursor: pointer;
-	color: rgb(39, 39, 177);
+
+.fa-facebook:hover {
+    cursor: pointer;
+    color: rgb(39, 39, 177);
 }
